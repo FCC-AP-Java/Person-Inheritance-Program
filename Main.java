@@ -7,5 +7,7 @@ class Main {
     System.out.println(child1.toString());
     Child child2 = new Child("Sue", 17, "female", "Eastern Technical High");
     System.out.println(child2.toString());
+    Person person1 = new Person("Felix", 16, "male");
+    System.out.println(person1.toString());
   }
 }
